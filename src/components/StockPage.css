@@ -1,0 +1,163 @@
+.main {
+    font-family: "Poppins", Arial, sans-serif;
+    padding: 20px;
+    background-color: rgba(195, 205, 228, 0.2);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.stock-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stock-item {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+  
+  .stock-item h2 {
+    margin: 0;
+  }
+  
+  .stock-filter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .filter-select {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+
+
+  .search {
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 600px;
+    max-width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+  
+  .search-icon {
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+  .add-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .add-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    max-width: 90%;
+    position: relative;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .modal-content h3 {
+    margin-top: 0;
+  }
+  
+  .modal-content input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: calc(100% - 22px);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .modal-content button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .modal-content button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  
+table {
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 20px;
+  }
+
+  .item-table {
+    background-color:#ffffff;
+    padding: 10px;
+  }
+  .stock-edit-btn {
+    margin: 0 5px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    border-right: 1px solid black;
+}
+.stock-btn-dlt {
+    cursor: pointer;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+}
+
+  .stock-edit-btn:hover {
+    color: #007bff;
+  }
+  
+  .stock-btn-dlt:hover {
+    color: #ff0000;
+  }
+  
